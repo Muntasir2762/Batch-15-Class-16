@@ -1,0 +1,25 @@
+.custom-m{
+    margin: 5px;
+    height: 300px;
+    width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .custom-m{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 536px) {
+    .custom-m{
+        width: 30%;
+    }
+
+    .custom-text{
+        font-size: 16px;
+    }
+
+    .custom-btn{
+        padding: 2px;
+    }
+}
